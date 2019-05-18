@@ -24,11 +24,11 @@ public class Class {
 		
 	boolean hasEggs =	list.contains ("eggs");
 	
-	System.out.println("Contains eggs: "+hasEggs);
+	System.out.println("ContainsMethod eggs: "+hasEggs);
 	
 	boolean hasCucumbers = list.toLowerCase().contains ("cucumbers");
 	
-	System.out.println("Contains cucumbers: "+hasCucumbers);
+	System.out.println("ContainsMethod cucumbers: "+hasCucumbers);
 	
 	// you can use this type of program for example if you're searching for 'error' in a long list of log.
 	

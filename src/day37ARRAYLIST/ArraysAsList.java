@@ -8,11 +8,13 @@ public class ArraysAsList {
 		//List<String> cars = Arrays.asList("Tesla", "Porsche", "");
 		
 		// create ArrayList prices, assign 10 values using Arrays.asList method
+		
 		List<Double> prices = Arrays.asList(5.2, 10.0, 23.4, 200.5, 3.5, 720.1, 7.5, 2.8, 129.2, 5.5 );
 		
 		System.out.println(prices);
 		
 		//calculate the sum of all prices
+		double sum1 =0;
 		
 		double sum = 0;
 		

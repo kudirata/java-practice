@@ -20,9 +20,11 @@ public class ArrayManipulation {
 		int[] newArray = removeFromArray(nums, target);
 				System.out.println(Arrays.toString(nums));
 				System.out.println(Arrays.toString(newArray));
-				
 			
-		
+				int[] numremove =removeFromArray(nums,1);
+				
+		//System.out.println(Arrays.toString(nums));	
+		//System.out.println(Arrays.toString(numremove));
 
 	}
 
