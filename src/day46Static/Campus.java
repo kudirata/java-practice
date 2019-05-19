@@ -32,5 +32,11 @@ public class Campus {
 	public void setCity(String city) {
 		this.city = city;
 	}
+
+
+	public static void campusInfo() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
