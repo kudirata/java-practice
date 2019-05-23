@@ -52,7 +52,7 @@ public class ArrayOfChars {
 		
         System.out.println();
         char[] newChars = new char[3];
-        System.out.println("Value of char: "+ newChars[0]);
+        System.out.println("Book of char: "+ newChars[0]);
         System.out.println(String.valueOf(newChars[0]));
         
 		

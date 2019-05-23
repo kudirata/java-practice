@@ -31,7 +31,7 @@ System.out.println();
 		
 		long longValue = 345378L;
 		int intValue = (int)longValue;
-		System.out.println("Int Value: " + intValue);
+		System.out.println("Int Book: " + intValue);
 		
 		System.out.println();
 		int large = 5678;
