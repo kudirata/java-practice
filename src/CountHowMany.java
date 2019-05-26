@@ -23,6 +23,14 @@ public class CountHowMany {
 		// if it is a match assign 
 		
 		
+		int result = 11;
+		result /= 2;
+		System.out.println("result = "+ result);
+		
+		int result2 = 5%2;
+		System.out.println(result2);
+				
+		
 		
 		
 			
