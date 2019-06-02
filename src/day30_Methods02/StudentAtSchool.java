@@ -5,6 +5,8 @@ public class StudentAtSchool {
 	public static void main(String[] args) {
 		study("Git");
 		study("JAVA, JAVA");
+		
+		System.out.println();
 		sleep(5);	
 	}
 	

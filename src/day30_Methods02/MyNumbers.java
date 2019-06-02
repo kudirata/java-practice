@@ -10,12 +10,17 @@ public class MyNumbers {
 		showMe5Numbers();
 		showMe5Numbers();
 		showMe5Numbers();
-//		while(true) {
-//			showMe5Numbers();
-//		}
+		System.out.println();
+		
+		//while(true) {
+		//	showMe5Numbers();
+		//	}
+		// this while loop will print endlessly :)
 		
 		do10PushUps(); 
-		do10PushUps();	
+		do10PushUps();
+		
+		System.out.println();
 		rangePrint();
 		rangePrint();
 		rangePrint();
@@ -29,9 +34,13 @@ public class MyNumbers {
      Ex:
      showMe5Numbers(); 345 233 566 2 23
 	 */
+	
 	public static void showMe5Numbers() {
+		
 		Random r = new Random();
+		
 		for(int i = 1; i <= 5; i++) {
+			
 			System.out.print(r.nextInt(1001)+" ");//print random num 0-1000
 		}
 		System.out.println();//take it to new line
@@ -50,7 +59,9 @@ public class MyNumbers {
 	   Time to rest
 	 */
 	public static void do10PushUps() {
+		
 		for(int j = 1; j <= 10; j++) {
+			
 			System.out.println("Pushup - " + j);
 		}
 		System.out.println("Time to rest");
@@ -65,8 +76,11 @@ public class MyNumbers {
 	 */
 	
 	public static void rangePrint() {
+		
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("Enter 2 nums:");
+		
 		int num1 = scan.nextInt(); //6
 		int num2 = scan.nextInt(); //3 
 		

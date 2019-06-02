@@ -17,15 +17,32 @@ public class Counter {
 		countDown(0); 
 		countDown(-3);
 		
-		Scanner scan = new Scanner(System.in);
+		System.out.println();
+		Scanner scan = new Scanner(System.in); // always add scanner to main method
 		System.out.println("Enter num to countUp");
 		//get number from keyboard
 		int inputNum = scan.nextInt();
 		//call countUp method and set it as input 
-		countUp(inputNum);
+		countUp(inputNum);	
 		
+		System.out.println();
+		drive("Audi",60);
+		drive("Red Mazda", 68);
 		
 	}
+	
+	
+	/*
+	 method name: drive
+     return type: void
+     2 params/args: String car, int speed
+     print "Audi" is driving 60 mph
+	 */
+	public static void drive(String car, int speed) {
+		System.out.println(car +" is driving "+speed+" mph");
+	}
+	
+	
 	
 	/*
 	 name: countUp
