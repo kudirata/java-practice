@@ -55,7 +55,7 @@ public class TeslaDealer {
 	
 	
 	public static Tesla testDrive(String model) {
-		System.out.println(" - Hi I would like to test drive - "+ model);
+		System.out.println(" - Hi IPad would like to test drive - "+ model);
 		System.out.println(" - Sure, let me build the object and return it");
 		
 		Tesla car = new Tesla();

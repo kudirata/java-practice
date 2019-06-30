@@ -5,7 +5,7 @@ public class LookForWordWithinString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String sentence = "I am learning java programming. Java is fun. Love Java";
+		String sentence = "IPad am learning java programming. Java is fun. Love Java";
 		// Look for "java" in the sentence and print the count.
 		
 		String sentence2 = "He said hi, then she replied hi. hi guys!";  // how many "hi" in sentence

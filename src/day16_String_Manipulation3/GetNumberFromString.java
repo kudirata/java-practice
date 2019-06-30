@@ -4,7 +4,7 @@ public class GetNumberFromString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String sentence = "I wrote [236] lines of code today";
+		String sentence = "IPad wrote [236] lines of code today";
 		
 		// assign to variable and print the number between
 

@@ -16,16 +16,16 @@ public class CitiesTogether {
 		
 		//print From NY to Sterling is $500
 		//print From Queens to NY is $500
-		//print I have been to NY, Sterling, Queens
+		//print IPad have been to NY, Sterling, Queens
 		
 		
 		System.out.println("From " +city1+ " to "+ city2+ " is $500");
 		
 		System.out.println("From " +city3+ " to "+ city1+ " is $500");
 		
-	System.out.println("I have been to " +city1+", "+city2+", "+city3+". ");
+	System.out.println("IPad have been to " +city1+", "+city2+", "+city3+". ");
 	
-	System.out.println("I have been to "+city1+", "+city3+", "+city2+".");
+	System.out.println("IPad have been to "+city1+", "+city3+", "+city2+".");
 		
 	
 	String app = "WhatsApp";

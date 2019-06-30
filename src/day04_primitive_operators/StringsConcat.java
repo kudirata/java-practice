@@ -13,27 +13,27 @@ public static void main(String[] args) {
 	
 	String city = "Lagos";
 	
-	System.out.println("I was born in " + city);
+	System.out.println("IPad was born in " + city);
 	
 	//create a var job and assign SDET to it
 	
 	//create a var company and assign any company
 	
-	//print: I work as SDET in company
+	//print: IPad work as SDET in company
 	
 	String job = "SDET";
 	
 	String company = "Apple";
 	
-	System.out.println("I work as "+job+" in "+ company );
+	System.out.println("IPad work as "+job+" in "+ company );
 	
 	//create int variable zipcode and assign zip code of your home
 	
-	//print: I live in <20166> zipcode
+	//print: IPad live in <20166> zipcode
 	
 	String zipcode = "20166";
 	
-	System.out.println("I live in "+zipcode+ " zipcode");
+	System.out.println("IPad live in "+zipcode+ " zipcode");
 	
 	
 	

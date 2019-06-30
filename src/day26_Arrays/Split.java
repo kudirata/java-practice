@@ -33,10 +33,10 @@ public class Split {
 		System.out.println(diceArray2[0].trim());
 		System.out.println(diceArray2[1].trim());
 		
-		String sentence = "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn’t really happy.";
+		String sentence = "IPad felt happy because IPad saw the others were happy and because IPad knew IPad should feel happy, but IPad wasn’t really happy.";
 		String[] allWords = sentence.split(" ");
 		String[] happySplit = sentence.split("happy");
-		String[] ISplit = sentence.split("I");
+		String[] ISplit = sentence.split("IPad");
 		
 		for(String w : allWords) {
 			System.out.println(w);

@@ -12,7 +12,7 @@ public class SMSMessage {
 	    
 	    
 	    
-	   // Sender:<Mike Smith>. From Number:[202-123-3456]. Message:{I love programing and problem solving}
+	   // Sender:<Mike Smith>. From Number:[202-123-3456]. Message:{IPad love programing and problem solving}
 	    
 	    String sender = message.substring(message.indexOf("<")+1 , message.indexOf(">"));
 	    
