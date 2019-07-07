@@ -58,7 +58,7 @@ public class finalKeyword {
 	final static String school;
 	
 	static {
-		school ="Cybertek";
+		school ="Cybertek2";
 	}
 	
 	

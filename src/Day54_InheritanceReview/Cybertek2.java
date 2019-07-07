@@ -14,7 +14,7 @@ class cybertek{
 	
 }
 
-public class Cybertek extends cybertek{
+public class Cybertek2 extends cybertek{
 	
 	/*
 	 this&super: refers to object instances.
@@ -34,7 +34,7 @@ public class Cybertek extends cybertek{
 	
 	static String str="School";
 	public static void methodY(String str) {
-		System.out.println( Cybertek.str );
+		System.out.println( Cybertek2.str );
 		
 	}
 	
@@ -56,14 +56,14 @@ public class Cybertek extends cybertek{
 	
 	}
 	
-	public Cybertek(  ) {
+	public Cybertek2(  ) {
 		this.result1 =true;
 		this.str1 ="obj";
 		this.decimal=0.9;
 		this.ch='7';
 			ch ='l';
-		new Cybertek().ch='p';
-		Cybertek.ch='o';
+		new Cybertek2().ch='p';
+		Cybertek2.ch='o';
 	}
 	
 	public void instancemethod() {
@@ -85,7 +85,7 @@ public class Cybertek extends cybertek{
 		int B = scan.nextInt();
 	}
 	
-	Cybertek(char c){
+	Cybertek2(char c){
 		boolean b= scan.nextBoolean();
 	}
 

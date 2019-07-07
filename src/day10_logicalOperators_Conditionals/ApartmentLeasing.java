@@ -8,7 +8,7 @@ public class ApartmentLeasing {
 		// TODO Auto-generated method stub
 		 Scanner scan = new Scanner(System.in);
 		    
-		    System.out.println("Welcome to Cybertek Apartments!");
+		    System.out.println("Welcome to Cybertek2 Apartments!");
 		    System.out.println("Number of bedrooms you are interested:");
 		    
 		    int numberOfBedrooms = scan.nextInt();

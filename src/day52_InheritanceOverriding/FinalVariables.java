@@ -7,7 +7,7 @@ public class FinalVariables {
 	public final int MODEX_X_PASSENGERS;
 	public final String JAN = "January";
 	
-	public static final String COMPANY_NAME = "Cybertek";
+	public static final String COMPANY_NAME = "Cybertek2";
 	public static final String ADMIN_USERNAME;
 	
 	static{
